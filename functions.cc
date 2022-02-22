@@ -251,11 +251,6 @@ double box_and_whisker(const std::vector<double> &vec, const std::string &desire
 }
 //function that takes in a sorted vector and returns the outliers
 std::vector<double> outliers(const std::vector<double> &vec, const double &q1, const double &q3, const double &iqr) {
-    /*
-    double q1 = box_and_whisker(vec, "q1");
-    double q3 = box_and_whisker(vec, "q3");
-    double iqr = q3 - q1;
-    */
     std::vector<double> outliers = {};
     for (double a : vec) {
         if ((a < (q1 - (1.5 * iqr))) or (a > (q3 + (1.5 * iqr)))) outliers.push_back(a);
