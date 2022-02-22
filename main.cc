@@ -6,7 +6,7 @@
 using namespace std;
 
 // TO-DO:
-// - impliment linear algebra functionality
+// - impliment linear algebra functionality (see line 124)
 // - cubic equation
 // - probability testing (z-test, t-test, chi-squared test, etc)
 
