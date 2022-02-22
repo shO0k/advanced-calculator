@@ -5,6 +5,11 @@
 #include <cmath>
 using namespace std;
 
+// TO-DO:
+// - impliment linear algebra functionality
+// - cubic equation
+// - probability testing (z-test, t-test, chi-squared test, etc)
+
 int main() {
     string user_choice = "";
     cout << "welcome to shook's advanced C++ calculator v1.0!\n";
